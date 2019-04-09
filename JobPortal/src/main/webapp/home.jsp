@@ -12,7 +12,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Job Portal</h1>
+<div class="jumbotron"><h1>Welcome to Job Portal</h1>
+<p>Login to Continue</p>
+</div>
 <div class="jumbotron">
 <a href="userlogin">User login</a><br><br>
 <a href="userregister">User register</a><br><br>
