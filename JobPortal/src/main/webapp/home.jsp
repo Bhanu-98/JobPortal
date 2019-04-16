@@ -24,7 +24,7 @@
 <a href="Recruiterlogin">Recruiter login</a><br><br>
 <a href="RecruiterRegister">Recruiter register</a><br><br>
 
-
+    <p> Edited</p>
 </div>
 </body>
 </html>
