@@ -111,7 +111,7 @@
     </plugins>
 </build>
 </project> 
-=======
+
 
 <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->  
 <dependency>    
@@ -198,4 +198,4 @@
     </plugins>
 </build>
 </project>
->>>>>>> branch 'master' of https://github.com/Bhanu-98/JobPortal
+
