@@ -25,7 +25,11 @@
     <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
     <property name="url" value="jdbc:mysql://127.0.0.1:3306/capstone"/>
     <property name="username" value="root"/>
+<<<<<<< HEAD
     <property name="password" value="1234"/>
+=======
+    <property name="password" value=""/>
+>>>>>>> branch 'master' of https://github.com/Bhanu-98/JobPortal
     </bean>  
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
     <property name="prefix" value="/WEB-INF/views/jsp/"/>

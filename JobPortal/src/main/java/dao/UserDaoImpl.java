@@ -28,6 +28,7 @@ public class UserDaoImpl implements UserDao {
 
 		BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 		String hashedPassword = passwordEncoder.encode(securepass);
+<<<<<<< HEAD
 		System.out.println(hashedPassword);
 		return hashedPassword;
 	}
@@ -51,6 +52,26 @@ class UserMapper implements RowMapper<User>{
 
 	public User mapRow(ResultSet rs, int rowNum) throws SQLException {
 		User user =new User();
+=======
+		
+		return hashedPassword;
+	}
+	public User validateUser(Login login) {		
+		String sql="select * from user where username='"+ login.getUsername()+"'";
+		List<User> list=jdbcTemplate.query(sql,new UserMapper());
+		
+			return list.size() > 0 ? list.get(0) : null;
+	}
+
+		
+	
+}
+class UserMapper implements RowMapper<User>{
+
+	public User mapRow(ResultSet rs, int rowNum) throws SQLException {
+		User user =new User();
+		
+>>>>>>> branch 'master' of https://github.com/Bhanu-98/JobPortal
 		user.setUsername(rs.getString(1));
 		user.setPassword(rs.getString(2));
 		user.setFullname(rs.getString(3));

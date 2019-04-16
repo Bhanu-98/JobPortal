@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<<<<<<< HEAD
 <title>Job portal</title>
 </head>
 <body>
@@ -23,6 +24,24 @@
 <a href="RecruiterRegister">Recruiter register</a><br><br>
 
 
+=======
+<title>Insert title here</title>
+</head>
+<body>
+<div class="jumbotron"><h1>Welcome to Job Portal</h1>
+<p>Login to Continue</p>
+</div>
+<div class="jumbotron">
+<a href="userlogin">User login</a><br><br>
+<a href="userregister">User register</a><br><br>
+<br>
+</div>
+<div class="jumbotron">
+<a href="Recruiterlogin">Recruiter login</a><br><br>
+<a href="RecruiterRegister">Recruiter register</a><br><br>
+
+    <p> Edited</p>
+>>>>>>> branch 'master' of https://github.com/Bhanu-98/JobPortal
 </div>
 </body>
 </html>
